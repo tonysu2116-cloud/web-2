@@ -18,7 +18,20 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				display: ['"Space Grotesk"', '"Inter"', 'system-ui', 'sans-serif'],
+				sans: ['"Inter"', 'system-ui', 'sans-serif'],
+			},
 			colors: {
+				tx: {
+					bg: 'hsl(var(--tx-bg))',
+					raised: 'hsl(var(--tx-bg-raised))',
+					fg: 'hsl(var(--tx-fg))',
+					muted: 'hsl(var(--tx-muted))',
+					faint: 'hsl(var(--tx-faint))',
+					line: 'hsl(var(--tx-line))',
+					accent: 'hsl(var(--tx-accent))',
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
